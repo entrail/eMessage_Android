@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_writeMessage"
+        android:title="Write new Message"
+        android:icon="@drawable/ic_message_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_addContact"
+        android:title="Add new contact"
+        android:icon="@drawable/ic_person_add_white_24dp"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_signOut"
+        android:title="Sign out"
+        app:showAsAction="never"/>
+
+</menu>
